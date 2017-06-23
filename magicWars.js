@@ -1182,7 +1182,7 @@ Q.scene("level7",function(stage) {
 		});
 
 		Q.state.set("survival", false);
-		Q.state.set("numberOfEnemies", 20);
+		Q.state.set("numberOfEnemies", 19);
 		Q.state.set("killedEnemies", 0);
 
 		Q.state.set("selectedPlayerCost", 0);
