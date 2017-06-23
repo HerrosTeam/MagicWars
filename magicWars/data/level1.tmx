@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.1" orientation="orthogonal" renderorder="left-down" width="8" height="6" tilewidth="100" tileheight="100" nextobjectid="1">
+ <properties>
+  <property name="type:SPRITE_NONE" value=""/>
+ </properties>
+ <tileset firstgid="1" name="greenTile2" tilewidth="100" tileheight="100" tilecount="64" columns="8">
+  <image source="../images/greenTile2.png" width="800" height="800"/>
+  <terraintypes>
+   <terrain name="New Terrain" tile="-1"/>
+  </terraintypes>
+  <tile id="32" terrain="0,0,0,0"/>
+  <tile id="33" terrain="0,0,0,0"/>
+  <tile id="34" terrain="0,0,0,0"/>
+  <tile id="35" terrain="0,0,0,0"/>
+  <tile id="36" terrain="0,0,0,0"/>
+  <tile id="37" terrain="0,0,0,0"/>
+  <tile id="40" terrain="0,0,0,0"/>
+  <tile id="41" terrain="0,0,0,0"/>
+  <tile id="42" terrain="0,0,0,0"/>
+  <tile id="43" terrain="0,0,0,0"/>
+  <tile id="44" terrain="0,0,0,0"/>
+  <tile id="45" terrain="0,0,0,0"/>
+ </tileset>
+ <layer name="background" width="8" height="6">
+  <data>
+   <tile gid="59"/>
+   <tile gid="60"/>
+   <tile gid="59"/>
+   <tile gid="27"/>
+   <tile gid="59"/>
+   <tile gid="27"/>
+   <tile gid="59"/>
+   <tile gid="27"/>
+   <tile gid="60"/>
+   <tile gid="59"/>
+   <tile gid="60"/>
+   <tile gid="59"/>
+   <tile gid="27"/>
+   <tile gid="59"/>
+   <tile gid="27"/>
+   <tile gid="59"/>
+   <tile gid="59"/>
+   <tile gid="60"/>
+   <tile gid="59"/>
+   <tile gid="60"/>
+   <tile gid="59"/>
+   <tile gid="27"/>
+   <tile gid="59"/>
+   <tile gid="27"/>
+   <tile gid="60"/>
+   <tile gid="59"/>
+   <tile gid="60"/>
+   <tile gid="59"/>
+   <tile gid="27"/>
+   <tile gid="59"/>
+   <tile gid="27"/>
+   <tile gid="59"/>
+   <tile gid="2"/>
+   <tile gid="2"/>
+   <tile gid="3"/>
+   <tile gid="4"/>
+   <tile gid="5"/>
+   <tile gid="6"/>
+   <tile gid="7"/>
+   <tile gid="8"/>
+   <tile gid="9"/>
+   <tile gid="10"/>
+   <tile gid="11"/>
+   <tile gid="12"/>
+   <tile gid="13"/>
+   <tile gid="14"/>
+   <tile gid="15"/>
+   <tile gid="16"/>
+  </data>
+ </layer>
+</map>
