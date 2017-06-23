@@ -1124,7 +1124,7 @@ Q.scene("level6",function(stage) {
 		});
 
 		Q.state.set("survival", false);
-		Q.state.set("numberOfEnemies", 18);
+		Q.state.set("numberOfEnemies", 17);
 		Q.state.set("killedEnemies", 0);
 
 		Q.state.set("selectedPlayerCost", 0);
@@ -1151,7 +1151,6 @@ Q.scene("level6",function(stage) {
 		stage.insert(new Q.EnemySpawner({row:0, nEnemies:1, tStart:90, delay:0, enemyP:"GreyTroll"}));
 		stage.insert(new Q.EnemySpawner({row:1, nEnemies:1, tStart:70, delay:0, enemyP:"Troll"}));
 		stage.insert(new Q.EnemySpawner({row:1, nEnemies:2, tStart:25, delay:70, enemyP:"Orc"}));
-		stage.insert(new Q.EnemySpawner({row:1, nEnemies:1, tStart:120, delay:0, enemyP:"AxeOrc"}));
 		stage.insert(new Q.EnemySpawner({row:2, nEnemies:2, tStart:30, delay:20, enemyP:"Orc"}));
 		stage.insert(new Q.EnemySpawner({row:2, nEnemies:1, tStart:60, delay:0, enemyP:"SwordOrc"}));
 		stage.insert(new Q.EnemySpawner({row:2, nEnemies:2, tStart:85, delay:20, enemyP:"SwordOrc"}));
